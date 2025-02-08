@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 // 5. Declaración de las rutas
-app.use("/api", routerUser);
+app.use("/api/user", routerUser);
 
 // interface Message {
 //   id: number;

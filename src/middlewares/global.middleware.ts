@@ -5,6 +5,6 @@ export const globalMiddleware = (
   res: Response,
   next: NextFunction
 ) => {
-  console.log("Middleware Global");
+  console.log("\nMiddleware Global");
   next();
 };

@@ -8,7 +8,7 @@ routerUser.use((req, res, next) => {
   next();
 });
 
-routerUser.get("/user", (req, res) => {
+routerUser.get("/", (req, res) => {
   res.send("User");
 });
 
